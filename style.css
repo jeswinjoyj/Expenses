@@ -20,4 +20,34 @@
         padding: 20px;
         font-size: 25px;
     }
+
+    /* --------------- */
+
+    .total-container{
+        display: flex;
+        font-size: 15px;
+        padding: 10px;
+        background-color: aqua;
+    }
+    .total-amount{
+        padding-left: 10px;
+    }
+
+    /* ------------------ */
+
+    .info-container{
+        margin: 20px auto;
+        max-width: 360px;
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+    }
+    .info-element-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: aqua;
+        min-width: 350px;
+        height: 30px;
+    }
 }
